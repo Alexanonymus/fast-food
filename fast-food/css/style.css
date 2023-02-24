@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 92%;
+    margin: 0 auto;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 90px;
+}
+
+
+
+.navbar-list-item{
+    display: inline-block;
+    margin: 25px;
+
+}
+
+.navbar-link{
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.5738px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.login-item{
+    display: inline-block;
+    margin: 15px;
+}
+
+
+.navbar .navbar-menu .navbar-list-item a.active{
+    color: #90E051;
+}
+
+.navbar .navbar-menu .navbar-list-item a:hover{
+    color: #90E051;
+}
+
+/* teaser boshlandi */
+.teaser{
+    display: flex;
+    height: 244px;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.teaser-box{
+    margin: 15px;
+    text-align: center;
+}
+
+
+/* teaser tugadi */
+
+
+/* menu section start */
+.menu{
+    background-image: url(../img/menu-burger.png);
+    height: 940px;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 0 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+  
+}
+
+.menu-box{
+    width: 90%;
+    background: #90E051;
+    box-shadow: 0px 17.7668px 111.042px -22.2084px rgba(0, 0, 0, 0.25);
+    border-radius: 71.067px;
+    padding: 2rem 1rem;
+}
+
+.menu-search{
+    display: inline-block;
+    margin-left: 2.6rem;
+}
+
+.menu-search form{
+    height: 45px;
+    width: 250px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-search form button{
+    border: none;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.menu-search form input{
+    height: 100%;
+    width: 80%;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    
+}
+
+.menu-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+
+.menu-card{
+    background: #FFFFFF;
+    box-shadow: 0px 5.84756px 36.5472px -7.30945px rgba(0, 0, 0, 0.25);
+    border-radius: 23.3902px;
+
+    margin: 25px 8px;
+    width: 210px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+.menu .menu-cards .menu-card .marg{
+    margin: 5px 0;
+
+}
+
+.menu .menu-cards .menu-card .card-img{
+    position: relative;
+    top: -30px;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.menu .menu-cards .menu-card .card-title{
+    margin-top: 0 !important;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.7873px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: -0.025em;
+
+    color: #000000;
+
+}
+
+
+.menu .menu-cards .menu-card .retsept{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.2047px;
+    line-height: 17px;
+    letter-spacing: -0.025em;
+
+    color: #000000;
+}
+
+
+.menu .menu-cards .menu-card .fa-star{
+    color: rgb(252, 252, 33);
+    font-size: 22px;
+}
+
+
+
+
+
+
+.menu .menu-cards .menu-card .narx-plus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu-cards .menu-card .narx-plus .narx{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.5955px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #90E051;
+}
+
+.menu .menu-cards .menu-card .narx-plus .narx span{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.5955px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #90E051;
+}
+
+.menu .menu-cards .menu-card .narx-plus .plus{
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #90E051;
+    box-shadow: 0px 5.59872px 18.1959px -1.39968px rgba(0, 0, 0, 0.25);
+}
+
+
+.menu .menu-cards .menu-card .narx-plus .plus i{
+    color: white;
+    font-size: 25px;
+}
+
+
+/* menu section end */
+
+
+/* about us section start */
+
+
+
+.about-us{
+    height: 800px;
+    background-color: #90E051 !important;
+
+}
+
+
+
+
+
+
+
+
+/* about-us section end */
+
+
+/* subscribe section start */
+
+.subscribe{
+    position: relative;
+    top: 85%;
+    margin: 0 auto;
+    width: 70%;
+    height: 242.47px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 80px 0px #CDCDCD40;
+    
+
+}
+
+.sub-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #90E051;
+}
+
+.subscribe .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.subscribe .row .sub-input input{
+    border: 1px solid #90E051;
+    outline: none;
+    height: 56px;
+    width: 70%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 0.9rem;
+
+}
+
+.subscribe .row .sub-input form{
+    display: flex;
+
+}
+
+.subscribe .row .sub-input button{
+    border: 1px solid #90E051;
+    outline: none;
+    height: 56px;
+    background-color: #90E051;
+    width: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+
+/* subscribe section end */
+
+
+
+
+
+
+
+
+
+/* menu section end */
+
+
+
+/* Footer start */
+.footer{
+    height: 566px;
+    background-image: url(../img/footer-img.png);
+}
+
+
+/* Footer end */
+
+
+
+/* responsive */
+
+
+@media only screen and (max-width: 576px){
+
+    /* teaser boshlandi */
+.teaser{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+
+.teaser-box{
+    margin: 15px;
+    text-align: center;
+}
+
+
+/* teaser tugadi */
+
+
+
+
+    
+    .menu{
+        background-image: url(../img/menu-burger.png);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 600px;
+        background-position: 0 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem 0;
+      
+    }
+    
+    .menu-box{
+        width: 90%;
+        background: #90E051;
+        box-shadow: 0px 17.7668px 111.042px -22.2084px rgba(0, 0, 0, 0.25);
+        border-radius: 71.067px;
+        padding: 2rem 1rem;
+    }
+
+.menu-search{
+    display: inline-block;
+    margin-left: 2.6rem;
+}
+.menu-search form{
+    height: 45px;
+    width: 250px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    
+}
+
+
+.menu-search form{
+    height: 45px;
+    width: 250px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu-search form button{
+    border: none;
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.menu-search form input{
+    height: 100%;
+    width: 80%;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    
+}
+
+
+
+
+
+
+
+.menu-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+
+.menu-card{
+    background: #FFFFFF;
+    box-shadow: 0px 5.84756px 36.5472px -7.30945px rgba(0, 0, 0, 0.25);
+    border-radius: 23.3902px;
+
+    margin: 25px 8px;
+    width: 210px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+    
+
+}
+
+
+.menu .menu-cards .menu-card .marg{
+    margin: 5px 0;
+
+}
+
+
+
+.menu .menu-cards .menu-card .card-img{
+    position: relative;
+    top: -30px;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .menu-cards .menu-card .card-title{
+    margin-top: 0 !important;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.7873px;
+    line-height: 20px;
+    /* identical to box height */
+
+    letter-spacing: -0.025em;
+
+    color: #000000;
+
+}
+
+
+.menu .menu-cards .menu-card .retsept{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.2047px;
+    line-height: 17px;
+    letter-spacing: -0.025em;
+
+    color: #000000;
+}
+
+
+.menu .menu-cards .menu-card .fa-star{
+    color: rgb(252, 252, 33);
+    font-size: 22px;
+}
+
+
+
+
+
+
+.menu .menu-cards .menu-card .narx-plus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu-cards .menu-card .narx-plus .narx{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.5955px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #90E051;
+}
+
+.menu .menu-cards .menu-card .narx-plus .narx span{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.5955px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #90E051;
+}
+
+.menu .menu-cards .menu-card .narx-plus .plus{
+
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #90E051;
+    box-shadow: 0px 5.59872px 18.1959px -1.39968px rgba(0, 0, 0, 0.25);
+}
+
+
+.menu .menu-cards .menu-card .narx-plus .plus i{
+    color: white;
+    font-size: 25px;
+}
+
+
+
+}
